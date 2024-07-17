@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8678f07d-44f1-42b2-9297-1b0bec0f6750")
+	(paper "A4")
+	(title_block
+		(title "Power Distribution Unit")
+		(date "2024-07-17")
+		(rev "1")
+		(company "Scott CJX")
+		(comment 1 "for NTU-Mecatron")
+	)
+	(lib_symbols)
+)
