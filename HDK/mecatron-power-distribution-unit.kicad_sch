@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Scott CJX")
 		(comment 1 "for NTU-Mecatron")
+		(comment 2 "PDU Phase 1")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -778,259 +779,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1249,58 +997,38 @@
 		)
 	)
 	(junction
-		(at 125.73 58.42)
+		(at 67.31 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07c5eb99-160f-429a-b5d9-2ab6c2001a52")
+		(uuid "2a03caaa-f57b-4400-bcb2-8c83abe25e09")
 	)
 	(junction
-		(at 64.77 58.42)
+		(at 124.46 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85967581-e4ff-4c62-b28c-319bf0abb0d2")
+		(uuid "6660a394-91d5-4237-af01-f7c5a9b2be8b")
 	)
 	(junction
-		(at 46.99 58.42)
+		(at 116.84 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9074df00-40f9-4db4-b812-c69d389757ac")
+		(uuid "b3a7ea31-23bd-4897-be36-738b4397a761")
 	)
 	(junction
-		(at 143.51 58.42)
+		(at 142.24 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "def3d48d-27c9-41b6-b498-41f534c3d48e")
+		(uuid "baefd75a-f50f-4e16-a849-160993d73266")
 	)
 	(junction
-		(at 113.03 58.42)
+		(at 49.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc3dce82-5567-40fe-9814-d2f927bb4698")
+		(uuid "d262dad4-da2b-46a1-9264-369202492109")
 	)
 	(wire
 		(pts
-			(xy 31.75 105.41) (xy 33.02 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0822151f-2c61-4913-b367-2c29a187f908")
-	)
-	(wire
-		(pts
-			(xy 125.73 58.42) (xy 127 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3e066f-dcc2-48be-a7a8-53161b7b78fd")
-	)
-	(wire
-		(pts
-			(xy 44.45 66.04) (xy 48.26 66.04)
+			(xy 48.26 78.74) (xy 50.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 125.73 58.42)
+			(xy 124.46 63.5) (xy 124.46 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1320,27 +1048,27 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 58.42) (xy 125.73 58.42)
+			(xy 68.58 81.28) (xy 66.04 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22ba681b-7bf6-4237-9d08-adc8f87b0e48")
+		(uuid "1b099380-7b14-4df1-80a6-b60519fe94ba")
 	)
 	(wire
 		(pts
-			(xy 52.07 107.95) (xy 53.34 107.95)
+			(xy 116.84 71.12) (xy 119.38 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26dcf3d9-0052-4f18-9f12-86bbe57fc7f9")
+		(uuid "272f0417-346b-4d39-903c-9c66d213679c")
 	)
 	(wire
 		(pts
-			(xy 143.51 58.42) (xy 142.24 58.42)
+			(xy 142.24 71.12) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 58.42) (xy 63.5 58.42)
+			(xy 67.31 71.12) (xy 68.58 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1360,17 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 26.67) (xy 29.21 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b1762fd-3c50-4560-8ccc-bff042011213")
-	)
-	(wire
-		(pts
-			(xy 113.03 66.04) (xy 127 66.04)
+			(xy 116.84 78.74) (xy 125.73 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1380,17 +1098,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 119.38) (xy 53.34 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dbdc2e9-f3ff-4072-a4ab-86c710008f54")
-	)
-	(wire
-		(pts
-			(xy 113.03 58.42) (xy 110.49 58.42)
+			(xy 115.57 71.12) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1400,17 +1108,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 91.44) (xy 53.34 91.44)
+			(xy 67.31 71.12) (xy 66.04 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b53c2f9-3a19-4fb9-8b4e-8fa5d64a823b")
+		(uuid "3b47032e-e04b-4521-b7d3-87dfdef6513a")
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 113.03 66.04)
+			(xy 121.92 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4793dc4f-69af-4f06-a575-b7b485631b9a")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1420,37 +1138,27 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 107.95) (xy 33.02 107.95)
+			(xy 142.24 71.12) (xy 140.97 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50b83552-e530-4bc6-99be-118032d65391")
+		(uuid "491f95f5-070e-490b-871c-10be5e3b6f29")
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 53.34 93.98)
+			(xy 46.99 71.12) (xy 49.53 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51c1a68e-3957-4c5a-9f11-ac6930382fea")
+		(uuid "4a186eab-d30e-49ac-8831-515c5959c70b")
 	)
 	(wire
 		(pts
-			(xy 31.75 91.44) (xy 33.02 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560ec204-e877-4c09-a495-a9941bd7c235")
-	)
-	(wire
-		(pts
-			(xy 101.6 58.42) (xy 102.87 58.42)
+			(xy 106.68 71.12) (xy 107.95 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1460,57 +1168,27 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 135.89) (xy 33.02 135.89)
+			(xy 143.51 81.28) (xy 140.97 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cb04eb4-e51a-4543-a989-9fcee082e206")
+		(uuid "5a74fd33-fac0-454d-9622-a072af4a0dbc")
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 114.3 58.42)
+			(xy 49.53 71.12) (xy 50.8 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f5e0474-b3e5-41e6-a9b6-04ccd802d500")
+		(uuid "7212e253-ed83-4060-a841-1b3163a7cc76")
 	)
 	(wire
 		(pts
-			(xy 30.48 34.29) (xy 29.21 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cb9766c-98b4-4627-85c3-0a48ec084b91")
-	)
-	(wire
-		(pts
-			(xy 30.48 24.13) (xy 29.21 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed47433-c17a-4845-80ea-97647f708d46")
-	)
-	(wire
-		(pts
-			(xy 52.07 135.89) (xy 53.34 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ee4cc3-722a-4fc7-b29b-caa985bf4e36")
-	)
-	(wire
-		(pts
-			(xy 59.69 50.8) (xy 64.77 50.8)
+			(xy 62.23 63.5) (xy 67.31 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1198,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 66.04) (xy 36.83 66.04)
+			(xy 39.37 78.74) (xy 40.64 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1530,27 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 127 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8645961d-1a3e-4bcf-afd1-baa262d0504d")
-	)
-	(wire
-		(pts
-			(xy 52.07 121.92) (xy 53.34 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892c3729-e47d-4fad-90c0-f93f04839721")
-	)
-	(wire
-		(pts
-			(xy 52.07 50.8) (xy 46.99 50.8)
+			(xy 54.61 63.5) (xy 49.53 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 35.56 58.42)
+			(xy 39.37 71.12) (xy 44.45 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1570,17 +1228,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 58.42) (xy 48.26 58.42)
+			(xy 39.37 83.82) (xy 50.8 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa352ed6-9208-4044-8d8e-e524c0694a0a")
+		(uuid "a398e4a9-b66c-4c0a-b31a-9ce75dce2a35")
 	)
 	(wire
 		(pts
-			(xy 143.51 50.8) (xy 143.51 58.42)
+			(xy 142.24 63.5) (xy 142.24 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1590,17 +1248,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 119.38) (xy 33.02 119.38)
+			(xy 124.46 71.12) (xy 125.73 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b11b3757-bc9f-4b5a-b5b7-db48e7aa747b")
+		(uuid "b169373b-9ff3-4606-94a2-e4efea1a1810")
 	)
 	(wire
 		(pts
-			(xy 138.43 50.8) (xy 143.51 50.8)
+			(xy 137.16 63.5) (xy 142.24 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +1268,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 64.77 58.42)
+			(xy 67.31 63.5) (xy 67.31 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1620,27 +1278,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 33.02 133.35)
+			(xy 106.68 83.82) (xy 125.73 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb14e208-f42e-45c8-93fd-4a14f3574704")
+		(uuid "bbf267e2-7c4c-4fdb-966a-fcd635bf2b3f")
 	)
 	(wire
 		(pts
-			(xy 31.75 121.92) (xy 33.02 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7263b6d-af0a-41c1-8be0-f6a8a69e92cd")
-	)
-	(wire
-		(pts
-			(xy 46.99 50.8) (xy 46.99 58.42)
+			(xy 49.53 63.5) (xy 49.53 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 125.73 50.8)
+			(xy 129.54 63.5) (xy 124.46 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1658,89 +1306,9 @@
 		)
 		(uuid "cccb957c-4fe8-4e86-9c48-66c252d42652")
 	)
-	(wire
-		(pts
-			(xy 45.72 58.42) (xy 46.99 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4875a11-77da-4393-994e-e244abfb06ee")
-	)
-	(wire
-		(pts
-			(xy 52.07 133.35) (xy 53.34 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df0b68da-4ad0-48e2-b073-e9e6877820fa")
-	)
-	(wire
-		(pts
-			(xy 30.48 31.75) (xy 29.21 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e62d9660-e211-4054-b02a-cc47695f4d33")
-	)
-	(wire
-		(pts
-			(xy 149.86 58.42) (xy 143.51 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f315fdf5-8fef-4078-a0fa-85f5fca01ef4")
-	)
-	(wire
-		(pts
-			(xy 46.99 71.12) (xy 48.26 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a8db54-971a-495e-8379-a0e575bdf216")
-	)
-	(wire
-		(pts
-			(xy 31.75 93.98) (xy 33.02 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3e6d622-6003-438c-95ae-127af86a458a")
-	)
-	(wire
-		(pts
-			(xy 52.07 105.41) (xy 53.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f54b5578-9616-40ab-bd5b-428511d6955b")
-	)
-	(wire
-		(pts
-			(xy 71.12 58.42) (xy 64.77 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe50aa54-a2d2-4387-bb37-9f4627156957")
-	)
 	(rectangle
-		(start 20.32 78.74)
-		(end 91.44 139.7)
+		(start 20.32 54.61)
+		(end 154.94 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -1748,10 +1316,10 @@
 		(fill
 			(type none)
 		)
-		(uuid 265c7470-1aff-4c93-972b-c71f42ed4643)
+		(uuid d070dd5a-2e50-46be-a1e7-c3e27ab532db)
 	)
 	(rectangle
-		(start 20.32 19.05)
+		(start 20.32 20.32)
 		(end 82.55 38.1)
 		(stroke
 			(width 0)
@@ -1762,19 +1330,9 @@
 		)
 		(uuid f117607f-0d96-43cb-8d55-9575e1e585e7)
 	)
-	(text "PwrOut connectors: (XT60)\nCurrect Max: 30A (Cont)"
+	(text "Assume e-stop cuts only\npropulsion & actuators"
 		(exclude_from_sim no)
-		(at 76.2 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2c23f399-8523-4128-be64-39029de37ab7")
-	)
-	(text "Assume e-stop cuts only\nthrusters and actuators"
-		(exclude_from_sim no)
-		(at 63.5 63.5 0)
+		(at 66.04 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,9 +1341,23 @@
 		)
 		(uuid "34d81b29-2852-46cb-84b0-0898513b0976")
 	)
+	(text "Power Control"
+		(exclude_from_sim no)
+		(at 22.86 52.07 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "4bc3837d-2ce4-42d2-b10b-601667f41f7b")
+	)
 	(text "flyback (optional)"
 		(exclude_from_sim no)
-		(at 134.62 45.72 0)
+		(at 133.35 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1793,9 +1365,20 @@
 		)
 		(uuid "52a99c9b-3a0a-4923-8103-3949b9f6e894")
 	)
+	(text "Proposed Future features:\n1. Over & Under & Reverse & Voltage & Short Circuit Protection\n2. Power Meter in-built\n3. Relay protection (via optocoupler)\n4. Allow VCC1 to be on/off by mcu too"
+		(exclude_from_sim no)
+		(at 87.63 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b0dc9fb-600a-4472-9ae8-2dde4a834f44")
+	)
 	(text "flyback (optional)"
 		(exclude_from_sim no)
-		(at 55.88 45.72 0)
+		(at 58.42 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1803,20 +1386,21 @@
 		)
 		(uuid "96d63655-ffe7-4cae-800d-3cf0f9b5ad08")
 	)
-	(text "Power Connectors (thrust & actuators)"
+	(text "Q: Assume VCC_{2} powers relay switch?\nWithout it, powering on propulsion is useless"
 		(exclude_from_sim no)
-		(at 21.59 81.28 0)
+		(at 73.66 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 105 57 1)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "da318130-1865-4e08-9a37-015b0315c821")
+		(uuid "a504af4b-4c0a-4cbc-ba94-7f21ebf328bd")
 	)
 	(text "PwrIn connectors: (XT60)\nCurrect Max: 30A (Cont)"
 		(exclude_from_sim no)
-		(at 64.77 25.4 0)
+		(at 66.04 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1826,7 +1410,7 @@
 	)
 	(text "Power In"
 		(exclude_from_sim no)
-		(at 21.59 17.78 0)
+		(at 22.86 17.78 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1839,143 +1423,8 @@
 		(uuid "f180c20a-e7bc-4483-b086-2f2bf8031e68")
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 33.02 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06b11359-4d74-46bf-9d8c-8343395eb77d")
-		(property "Reference" "#PWR0113"
-			(at 29.21 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCF_{1}"
-			(at 35.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 33.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "acb4b65f-1956-4369-b882-42210af80f4a")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06fa69b2-2611-4694-b1ff-152d68adcd85")
-		(property "Reference" "J109"
-			(at 26.67 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrOut_{1}"
-			(at 26.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 26.67 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4200c87-78ed-4360-b2dc-f9539b04bf14")
-		)
-		(pin "1"
-			(uuid "50c9a68b-e647-4e2b-9f50-29c3ab75024c")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "J109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 35.56 31.75 0)
+		(at 35.56 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1984,7 +1433,7 @@
 		(fields_autoplaced yes)
 		(uuid "17b1fea1-5048-425d-979b-095d14317b79")
 		(property "Reference" "J102"
-			(at 38.1 31.7499 0)
+			(at 38.1 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1993,7 +1442,7 @@
 			)
 		)
 		(property "Value" "PwrIn_{2}"
-			(at 38.1 34.2899 0)
+			(at 38.1 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +1451,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 35.56 31.75 0)
+			(at 35.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +1460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 31.75 0)
+			(at 35.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +1469,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 31.75 0)
+			(at 35.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,25 +1493,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 40.64 58.42 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 119.38 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "218e682f-d982-4232-ba82-7f2b6c75c59e")
-		(property "Reference" "SW101"
-			(at 40.64 52.07 0)
+		(uuid "307ae6c4-0f23-4542-80b6-7d3724267823")
+		(property "Reference" "J103"
+			(at 120.904 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "E-STOP"
-			(at 40.64 54.61 0)
+		(property "Value" "PwrSw"
+			(at 120.904 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,7 +1518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 58.42 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,7 +1527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 58.42 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,8 +1535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 40.64 58.42 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,151 +1545,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "132a5492-7d20-4bcf-97f5-c62e630c08ff")
+			(uuid "8ab96c54-2b87-4c97-bed6-295a6317b8ed")
 		)
 		(pin "2"
-			(uuid "1177c0db-eba4-4f75-a662-b6c0165e1a19")
+			(uuid "e8bb8d51-2118-4648-8d07-c0e2a36ca0da")
 		)
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "SW101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 121.92 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21985eb3-34c4-4fa6-a3f8-058321e84547")
-		(property "Reference" "#PWR0118"
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "daf56dfd-e6b2-40a6-be58-1d0077d71271")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 93.98 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e9351cd-627f-40f8-9a81-dbafc9ac8899")
-		(property "Reference" "#PWR0110"
-			(at 39.37 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4dfc83a-092d-47b7-a583-4ec59126d254")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0110")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -2249,15 +1561,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 29.21 24.13 90)
+		(at 30.48 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "316c9ff5-c8ea-40e5-9be7-a37cdfa0e957")
-		(property "Reference" "#PWR0105"
-			(at 33.02 24.13 0)
+		(property "Reference" "#PWR0101"
+			(at 34.29 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +1578,7 @@
 			)
 		)
 		(property "Value" "VCC_{1}"
-			(at 26.67 24.13 90)
+			(at 27.94 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +1587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 24.13 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +1596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 24.13 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +1605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 29.21 24.13 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +1619,74 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0105")
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 44.45 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a962c71-a186-48a3-ab85-06d8bf6b1c25")
+		(property "Reference" "J104"
+			(at 45.974 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "E-Stop"
+			(at 45.974 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df84e745-ba2e-4981-8a92-12230435f853")
+		)
+		(pin "2"
+			(uuid "fac409ad-9a3a-4e68-a750-e6d05cf60aae")
+		)
+		(instances
+			(project "mecatron-power-distribution-unit"
+				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -2315,7 +1694,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Relay_SPDT")
-		(at 55.88 63.5 90)
+		(at 58.42 76.2 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2323,8 +1702,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4511ea9e-6faa-4f9b-b2d2-83367ff025b5")
-		(property "Reference" "K101"
-			(at 55.88 74.93 90)
+		(property "Reference" "K102"
+			(at 58.42 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2332,7 +1711,7 @@
 			)
 		)
 		(property "Value" "Relay_SPDT"
-			(at 55.88 50.8 90)
+			(at 58.42 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +1720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 74.93 0)
+			(at 59.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +1730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 63.5 0)
+			(at 58.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +1739,7 @@
 			)
 		)
 		(property "Description" "Monostable Relay SPDT, EN50005"
-			(at 55.88 63.5 0)
+			(at 58.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +1765,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "K101")
+					(reference "K102")
 					(unit 1)
 				)
 			)
@@ -2394,15 +1773,15 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 106.68 58.42 90)
+		(at 111.76 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "45294558-8e69-4799-8071-a83c2aac4f52")
-		(property "Reference" "F102"
-			(at 106.68 55.88 90)
+		(property "Reference" "F101"
+			(at 111.76 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +1789,7 @@
 			)
 		)
 		(property "Value" "15A"
-			(at 106.68 60.96 90)
+			(at 111.76 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +1797,7 @@
 			)
 		)
 		(property "Footprint" "NVF-Kicad:FUSE-MCCQ-122"
-			(at 106.68 60.198 90)
+			(at 111.76 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +1806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 58.42 0)
+			(at 111.76 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +1815,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 106.68 58.42 0)
+			(at 111.76 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,208 +1832,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "F102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 46.99 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ac80f60-cea8-456f-9d77-176620e29ed1")
-		(property "Reference" "J110"
-			(at 46.99 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrOut_{1}"
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 46.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2a74ff8d-353f-4926-b50f-f0d16a766d30")
-		)
-		(pin "1"
-			(uuid "d94d6c53-7276-43a7-a47f-39f020988e52")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "J110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 33.02 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b0c7233-de1f-4885-9b0b-6051a6dd77e0")
-		(property "Reference" "#PWR0119"
-			(at 29.21 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCF_{1}"
-			(at 35.56 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 33.02 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40436e13-3a96-421b-97b7-fc68a3dee4fb")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 34.29 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b6885ad-4071-4672-8cad-7da52f04414b")
-		(property "Reference" "#PWR0103"
-			(at 38.1 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 31.75 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 34.29 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d591acaf-974b-48ff-beb0-3b509404e598")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0103")
+					(reference "F101")
 					(unit 1)
 				)
 			)
@@ -2662,152 +1840,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 121.92 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52ae2c44-51f2-4ad1-8692-2ce21fcef575")
-		(property "Reference" "#PWR0117"
-			(at 39.37 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04856fc4-1fb3-43ac-b1da-75c64c913896")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b255d84-e8aa-4cd6-9c1e-43684599a2d6")
-		(property "Reference" "J103"
-			(at 26.67 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrOut_{1}"
-			(at 26.67 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 26.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "596e41f9-0191-421e-b837-226bfb33f258")
-		)
-		(pin "1"
-			(uuid "e73a58c1-44ce-4644-8fcf-ba95ac042ea2")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "J103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 71.12 270)
+		(at 106.68 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "622a4da1-2bbc-4bab-86b3-ce1760715a57")
-		(property "Reference" "#PWR0129"
-			(at 119.38 71.12 0)
+		(property "Reference" "#PWR0112"
+			(at 100.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +1857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 71.1199 90)
+			(at 102.87 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +1867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 71.12 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +1876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 71.12 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +1885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 71.12 0)
+			(at 106.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +1899,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0129")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -2866,15 +1907,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 101.6 58.42 90)
+		(at 39.37 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "62e61438-eaa8-41a3-badf-88079984144f")
-		(property "Reference" "#PWR0123"
-			(at 105.41 58.42 0)
+		(uuid "626bb8c8-4134-4b82-a49b-0f94d02e07ef")
+		(property "Reference" "#PWR0107"
+			(at 43.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +1924,7 @@
 			)
 		)
 		(property "Value" "VCC_{2}"
-			(at 99.06 58.42 90)
+			(at 36.83 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +1933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 58.42 0)
+			(at 39.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +1942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 58.42 0)
+			(at 39.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +1951,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 101.6 58.42 0)
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22da11e8-af04-488c-a9d1-be6aaa0dcc06")
+		)
+		(instances
+			(project "mecatron-power-distribution-unit"
+				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 106.68 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62e61438-eaa8-41a3-badf-88079984144f")
+		(property "Reference" "#PWR0105"
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_{2}"
+			(at 104.14 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 106.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,143 +2031,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 107.95 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6647754d-a20c-4213-9ab4-e17b0e2d3a26")
-		(property "Reference" "#PWR0115"
-			(at 39.37 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91f41f06-562f-4419-b011-71fa73e3398b")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 107.95 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a1b010b-b2d0-4671-80fa-c41f60d82038")
-		(property "Reference" "#PWR0116"
-			(at 59.69 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46676776-3322-432c-8f54-a18be435c676")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0116")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3068,15 +2039,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 63.5 68.58 270)
+		(at 68.58 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7273f59e-7239-47ec-aa70-109b4d3cd4e4")
-		(property "Reference" "#PWR0130"
-			(at 59.69 68.58 0)
+		(property "Reference" "#PWR0111"
+			(at 64.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +2056,7 @@
 			)
 		)
 		(property "Value" "VCCF_{1}"
-			(at 66.04 68.58 90)
+			(at 71.12 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +2065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 68.58 0)
+			(at 68.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +2074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 68.58 0)
+			(at 68.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +2083,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 63.5 68.58 0)
+			(at 68.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,145 +2097,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 46.99 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b83518e-acc0-4245-8980-28c6df294b06")
-		(property "Reference" "J108"
-			(at 46.99 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrOut_{1}"
-			(at 46.99 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 46.99 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "67519a02-b26d-44b1-a028-43061c2f7ab8")
-		)
-		(pin "1"
-			(uuid "04f12136-c692-4c8b-a58a-4075f2e6ddfc")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "J108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 46.99 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f5b26b9-21eb-453a-9f8e-0204fd44db51")
-		(property "Reference" "J104"
-			(at 46.99 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrOut_{1}"
-			(at 46.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 46.99 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d14d7242-535b-4111-93a7-241f4ac40a4a")
-		)
-		(pin "1"
-			(uuid "cab958d6-d040-4681-9d3d-e5d4ddb81441")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "J104")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3272,15 +2105,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 29.21 31.75 90)
+		(at 30.48 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "85e36868-d8be-43b3-8d32-a7d5d5454644")
-		(property "Reference" "#PWR0107"
-			(at 33.02 31.75 0)
+		(property "Reference" "#PWR0103"
+			(at 34.29 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +2122,7 @@
 			)
 		)
 		(property "Value" "VCC_{2}"
-			(at 26.67 31.75 90)
+			(at 27.94 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +2131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 31.75 0)
+			(at 30.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +2140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 31.75 0)
+			(at 30.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +2149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 29.21 31.75 0)
+			(at 30.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3330,75 +2163,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 135.89 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "871322d2-2b5f-4c39-a623-aa7d22604a1a")
-		(property "Reference" "#PWR0122"
-			(at 59.69 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3214bfb9-db2a-423f-81bf-c2e045e887a8")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0122")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3406,81 +2171,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 33.02 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88072c23-525c-4054-b99d-a92dc14c68b2")
-		(property "Reference" "#PWR0109"
-			(at 29.21 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCF_{1}"
-			(at 35.56 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 33.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c13028c-df10-46ab-9951-592821865466")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 34.29 66.04 90)
+		(at 39.37 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "89d730b2-6738-432d-8919-4dc7b417b7e5")
-		(property "Reference" "#PWR0101"
-			(at 38.1 66.04 0)
+		(property "Reference" "#PWR0109"
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +2188,7 @@
 			)
 		)
 		(property "Value" "VCC_{1}"
-			(at 31.75 66.04 90)
+			(at 36.83 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +2197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 66.04 0)
+			(at 39.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +2206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 66.04 0)
+			(at 39.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +2215,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 34.29 66.04 0)
+			(at 39.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +2229,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0101")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -3538,75 +2237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 93.98 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9252734d-13bb-47f9-9f9d-570179d1f5ba")
-		(property "Reference" "#PWR0112"
-			(at 59.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88edf73b-59f2-4d31-9044-7b447a3d2a15")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 34.29 270)
+		(at 30.48 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3614,8 +2245,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9588f640-1317-41cf-8715-1bf35af4d76a")
-		(property "Reference" "#PWR0108"
-			(at 22.86 34.29 0)
+		(property "Reference" "#PWR0104"
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +2255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 34.2899 90)
+			(at 26.67 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +2265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 34.29 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +2274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 34.29 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +2283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 34.29 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +2297,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0108")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -3674,7 +2305,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 58.42 90)
+		(at 143.51 71.12 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3682,8 +2313,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98f994ea-71a1-4956-850c-c14edb088334")
-		(property "Reference" "#PWR0124"
-			(at 156.21 58.42 0)
+		(property "Reference" "#PWR0106"
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +2323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 58.4199 90)
+			(at 147.32 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +2333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 58.42 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +2342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 58.42 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +2351,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 58.42 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,76 +2365,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a03c1da3-3e33-48d7-bdc0-bb1b84eaab7d")
-		(property "Reference" "J107"
-			(at 26.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrOut_{1}"
-			(at 26.67 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 26.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af4a5f63-adb3-48bd-bbce-fae0416c7826")
-		)
-		(pin "1"
-			(uuid "dff9e870-d79b-4db2-b35f-a32dab86c59d")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "J107")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -3811,15 +2373,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 71.12 270)
+		(at 39.37 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "aac0b5b9-7ded-488b-93f4-def985782b60")
-		(property "Reference" "#PWR0127"
-			(at 40.64 71.12 0)
+		(property "Reference" "#PWR0113"
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +2390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 71.1199 90)
+			(at 35.56 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +2400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 71.12 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +2409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 71.12 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +2418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 71.12 0)
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,141 +2432,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 53.34 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae1b8678-f356-4995-b6b1-8629697223ab")
-		(property "Reference" "#PWR0111"
-			(at 49.53 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCF_{1}"
-			(at 55.88 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 53.34 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae711629-ecde-4c8b-a9b1-0aa4a8a73303")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 119.38 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b22d0687-1681-456a-9729-7791aed44904")
-		(property "Reference" "SW102"
-			(at 119.38 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrSw"
-			(at 119.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c3a2176-e609-4393-ac66-9911b20893ce")
-		)
-		(pin "2"
-			(uuid "b5f341f6-b308-4c38-96e5-1d699600198a")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "SW102")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -4012,15 +2440,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 134.62 50.8 0)
+		(at 133.35 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b4f50fd6-657b-47be-b2f5-be837c3bccc3")
-		(property "Reference" "D102"
-			(at 134.62 48.26 0)
+		(property "Reference" "D101"
+			(at 133.35 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +2456,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 134.62 46.99 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +2465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 50.8 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +2474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 50.8 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +2483,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 134.62 50.8 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +2492,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 134.62 50.8 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +2501,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 50.8 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,75 +2518,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "D102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 135.89 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9c8174c-4be9-4900-bb8e-bf45df207bb1")
-		(property "Reference" "#PWR0121"
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5886195b-758a-48c2-b317-305bf9a59548")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0121")
+					(reference "D101")
 					(unit 1)
 				)
 			)
@@ -4166,15 +2526,15 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 40.64 66.04 90)
+		(at 44.45 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c15862f8-9dc9-46f1-bc4b-2ea06dfd4ac0")
-		(property "Reference" "F101"
-			(at 40.64 63.5 90)
+		(property "Reference" "F102"
+			(at 44.45 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +2542,7 @@
 			)
 		)
 		(property "Value" "15A"
-			(at 40.64 68.58 90)
+			(at 44.45 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +2550,7 @@
 			)
 		)
 		(property "Footprint" "NVF-Kicad:FUSE-MCCQ-122"
-			(at 40.64 67.818 90)
+			(at 44.45 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +2559,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 66.04 0)
+			(at 44.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +2568,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 40.64 66.04 0)
+			(at 44.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +2585,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "F101")
+					(reference "F102")
 					(unit 1)
 				)
 			)
@@ -4233,7 +2593,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 26.67 270)
+		(at 30.48 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4241,8 +2601,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1dd0987-e055-45d4-bbea-8a554f581761")
-		(property "Reference" "#PWR0106"
-			(at 22.86 26.67 0)
+		(property "Reference" "#PWR0102"
+			(at 24.13 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +2611,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 26.6699 90)
+			(at 26.67 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +2621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 26.67 0)
+			(at 30.48 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +2630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 26.67 0)
+			(at 30.48 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +2639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 26.67 0)
+			(at 30.48 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +2653,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0106")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4301,7 +2661,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 35.56 24.13 0)
+		(at 35.56 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4310,7 +2670,7 @@
 		(fields_autoplaced yes)
 		(uuid "c74edf5a-f8fb-4a8f-8171-c1a4e0444b93")
 		(property "Reference" "J101"
-			(at 38.1 24.1299 0)
+			(at 38.1 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +2679,7 @@
 			)
 		)
 		(property "Value" "PwrIn_{1}"
-			(at 38.1 26.6699 0)
+			(at 38.1 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +2688,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 35.56 24.13 0)
+			(at 35.56 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +2697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 24.13 0)
+			(at 35.56 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +2706,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 24.13 0)
+			(at 35.56 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,15 +2731,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 142.24 68.58 270)
+		(at 143.51 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c9fabff1-2552-4db3-9d3e-a535325c8353")
-		(property "Reference" "#PWR0128"
-			(at 138.43 68.58 0)
+		(property "Reference" "#PWR0110"
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +2748,7 @@
 			)
 		)
 		(property "Value" "VCCF_{2}"
-			(at 144.78 68.58 90)
+			(at 146.05 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +2757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 68.58 0)
+			(at 143.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +2766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 68.58 0)
+			(at 143.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +2775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 142.24 68.58 0)
+			(at 143.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,76 +2789,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0c0a9ee-696c-4c38-afa0-e0967f91b163")
-		(property "Reference" "J105"
-			(at 26.67 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrOut_{1}"
-			(at 26.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 26.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4d0c24c-8f45-4736-99f4-39080740b182")
-		)
-		(pin "1"
-			(uuid "a685710d-df41-4f1b-976b-16cf4c2d21e2")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "J105")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -4506,7 +2797,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Relay_SPDT")
-		(at 134.62 63.5 90)
+		(at 133.35 76.2 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4514,8 +2805,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ffcb5c-a7c2-42fb-8923-f95e20fa0ac2")
-		(property "Reference" "K102"
-			(at 134.62 74.93 90)
+		(property "Reference" "K101"
+			(at 133.35 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +2814,7 @@
 			)
 		)
 		(property "Value" "Relay_SPDT"
-			(at 134.62 50.8 90)
+			(at 133.35 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4532,7 +2823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 74.93 0)
+			(at 134.62 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 63.5 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +2842,7 @@
 			)
 		)
 		(property "Description" "Monostable Relay SPDT, EN50005"
-			(at 134.62 63.5 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,142 +2868,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "K102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 46.99 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de05c493-4b2b-4f97-8b0b-f7feb27fcf0f")
-		(property "Reference" "J106"
-			(at 46.99 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PwrOut_{1}"
-			(at 46.99 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
-			(at 46.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35f7d972-0ff9-4dc2-97b1-cbc46428ba04")
-		)
-		(pin "1"
-			(uuid "5dc1af9e-7aa9-47ff-86db-13190d4a27cf")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "J106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 53.34 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea54fb2b-a794-4f0a-8ce5-7610b029a47f")
-		(property "Reference" "#PWR0114"
-			(at 49.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCF_{1}"
-			(at 55.88 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 53.34 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac0a811e-8a23-4b6a-9d6f-1ced75ca9f4c")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0114")
+					(reference "K101")
 					(unit 1)
 				)
 			)
@@ -4720,15 +2876,15 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 55.88 50.8 0)
+		(at 58.42 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "efa35dbc-b554-49ab-8d15-a39d4c764451")
-		(property "Reference" "D101"
-			(at 55.88 48.26 0)
+		(property "Reference" "D102"
+			(at 58.42 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +2892,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 55.88 46.99 0)
+			(at 58.42 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +2901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 50.8 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +2910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 50.8 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +2919,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 55.88 50.8 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +2928,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 55.88 50.8 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +2937,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 55.88 50.8 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,139 +2954,7 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 33.02 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f299da6c-c082-4e34-9f95-2ba7b5238891")
-		(property "Reference" "#PWR0102"
-			(at 29.21 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCF_{1}"
-			(at 35.56 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 33.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cd97419-22ef-4268-b4e2-616a45c254f4")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 53.34 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7412700-8c53-4386-aa41-baf6521b44aa")
-		(property "Reference" "#PWR0120"
-			(at 49.53 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCCF_{1}"
-			(at 55.88 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 53.34 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d4f7560-a427-4754-980c-40f2e37b6f62")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0120")
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -4938,7 +2962,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 58.42 90)
+		(at 68.58 71.12 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4946,8 +2970,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f799d1c2-771a-4e8d-b0d8-b76f97ca6f39")
-		(property "Reference" "#PWR0125"
-			(at 77.47 58.42 0)
+		(property "Reference" "#PWR0108"
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +2980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 58.4199 90)
+			(at 72.39 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,7 +2990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 58.42 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +2999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 58.42 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +3008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 58.42 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,74 +3022,84 @@
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0125")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 53.34 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffdcc5cd-e3f7-4f18-9d96-7bcd98b9fa49")
-		(property "Reference" "#PWR0104"
-			(at 49.53 119.38 0)
+	(sheet
+		(at 177.8 69.85)
+		(size 12.7 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e97a35b-ee47-4134-8bb7-3f89df229397")
+		(property "Sheetname" "PwrOut2"
+			(at 177.8 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "VCCF_{1}"
-			(at 55.88 119.38 90)
+		(property "Sheetfile" "PwrOut2.kicad_sch"
+			(at 177.8 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
-		)
-		(property "Footprint" ""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 53.34 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2babe82-eac0-4545-9d44-a3ed15a77dda")
 		)
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
-					(reference "#PWR0104")
-					(unit 1)
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 54.61)
+		(size 12.7 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd7e521a-0d4f-4fe8-8113-db4af1b76da2")
+		(property "Sheetname" "PwrOut1"
+			(at 177.8 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PwrOut1.kicad_sch"
+			(at 177.8 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mecatron-power-distribution-unit"
+				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497"
+					(page "2")
 				)
 			)
 		)
