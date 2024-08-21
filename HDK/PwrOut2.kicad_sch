@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Distribution Unit")
-		(date "2024-07-17")
+		(date "2024-07-29")
 		(rev "1")
 		(company "Scott CJX")
 		(comment 1 "for NTU-Mecatron")
@@ -1245,7 +1245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(property "Footprint" ""
 			(at 114.3 25.4 0)
 			(effects
 				(font
@@ -1647,7 +1647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(property "Footprint" ""
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -2053,7 +2053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(property "Footprint" ""
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -2191,7 +2191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(property "Footprint" ""
 			(at 114.3 36.83 0)
 			(effects
 				(font
@@ -2528,7 +2528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(property "Footprint" ""
 			(at 114.3 30.48 0)
 			(effects
 				(font
@@ -2598,7 +2598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(property "Footprint" ""
 			(at 114.3 41.91 0)
 			(effects
 				(font
@@ -3071,7 +3071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical"
+		(property "Footprint" ""
 			(at 114.3 48.26 0)
 			(effects
 				(font
