@@ -1025,7 +1025,7 @@
 		)
 		(uuid e7b4c317-1cab-46b8-8000-0de7b3997c37)
 	)
-	(text "Power Connectors (Propulsion & Actuators)"
+	(text "Power Connectors (Computing)"
 		(exclude_from_sim no)
 		(at 20.32 19.05 0)
 		(effects
