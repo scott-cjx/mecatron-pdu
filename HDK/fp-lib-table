@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mecatron-kicad-footprints")(type "KiCad")(uri "${KIPRJMOD}/mecatron-kicad-footprints.pretty")(options "")(descr ""))
+)

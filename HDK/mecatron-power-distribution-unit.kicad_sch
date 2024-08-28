@@ -1478,7 +1478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "mecatron-kicad-footprints:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 39.37 31.75 0)
 			(effects
 				(font
@@ -2483,7 +2483,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4004"
 			(at 133.35 59.69 0)
 			(effects
 				(font
@@ -2492,7 +2492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 133.35 63.5 0)
 			(effects
 				(font
@@ -2715,7 +2715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
+		(property "Footprint" "mecatron-kicad-footprints:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 39.37 24.13 0)
 			(effects
 				(font
@@ -2919,7 +2919,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4004"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -2928,7 +2928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 58.42 63.5 0)
 			(effects
 				(font

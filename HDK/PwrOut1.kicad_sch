@@ -1994,6 +1994,75 @@
 		(uuid "9462aa89-8cb0-46f2-b76d-d1b24c2e9b7d")
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 31.75 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00d6e9f5-bdf8-4b20-9d7e-e33fd3272a86")
+		(property "Reference" "J204"
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1-Out"
+			(at 29.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mecatron-kicad-footprints:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d8d76df-d50b-4fdb-9557-e9d021697118")
+		)
+		(pin "1"
+			(uuid "e78c2fdc-ec74-43ee-8caf-92e54142b3ad")
+		)
+		(instances
+			(project "mecatron-power-distribution-unit"
+				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
+					(reference "J204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 88.9 90)
 		(mirror x)
@@ -2068,7 +2137,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0b57256e-dd1b-4343-9a20-3d74d1cc47e1")
 		(property "Reference" "D204"
 			(at 59.69 44.45 90)
@@ -2088,7 +2157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 58.42 45.72 0)
 			(effects
 				(font
@@ -2148,7 +2217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "560u"
 			(at 73.66 59.69 0)
 			(effects
 				(font
@@ -2206,7 +2275,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "34f29354-01dd-4a88-8b89-b12459e2ebdd")
 		(property "Reference" "D212"
 			(at 59.69 95.25 90)
@@ -2226,7 +2295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -2263,6 +2332,75 @@
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
 					(reference "D212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 31.75 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4537bf5b-a0c8-43ed-9ab6-3860f0d327e4")
+		(property "Reference" "J202"
+			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1-Out"
+			(at 29.21 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mecatron-kicad-footprints:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b3de997-8beb-4380-9774-504f1eee1256")
+		)
+		(pin "1"
+			(uuid "eaf735d2-593e-4fd9-86c2-f3525faf521d")
+		)
+		(instances
+			(project "mecatron-power-distribution-unit"
+				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -2343,7 +2481,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49eea251-30c3-4d91-96c3-76cb6f9b817c")
 		(property "Reference" "D203"
 			(at 48.26 44.45 90)
@@ -2363,7 +2501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 46.99 45.72 0)
 			(effects
 				(font
@@ -2478,7 +2616,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "50e247d4-70e4-46e9-81c4-20817b094288")
 		(property "Reference" "D207"
 			(at 48.26 69.85 90)
@@ -2498,7 +2636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -2535,76 +2673,6 @@
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
 					(reference "D207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.75 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55ae3982-aa9b-4191-b0f3-8d5f32c627df")
-		(property "Reference" "J206"
-			(at 29.21 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P1-Out"
-			(at 29.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 31.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3deec80e-31a3-483b-b9c0-5a690070f1a8")
-		)
-		(pin "1"
-			(uuid "19f10f05-cf51-4f16-9eb0-b60548aa763b")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
-					(reference "J206")
 					(unit 1)
 				)
 			)
@@ -2677,13 +2745,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 31.75 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58b0b658-ba32-43de-ab92-dcdd0c4e02d1")
+		(property "Reference" "J206"
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1-Out"
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mecatron-kicad-footprints:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44195a5f-55f1-4c00-ba0c-f6851ff758c7")
+		)
+		(pin "1"
+			(uuid "a2d1d618-ffff-495e-a0d2-180b7bcf8351")
+		)
+		(instances
+			(project "mecatron-power-distribution-unit"
+				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
+					(reference "J206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 58.42 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5f49aac2-4a32-4d64-affe-9c91aab161e2")
 		(property "Reference" "D202"
 			(at 59.69 31.75 90)
@@ -2703,7 +2840,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 58.42 33.02 0)
 			(effects
 				(font
@@ -2763,7 +2900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "560u"
 			(at 73.66 34.29 0)
 			(effects
 				(font
@@ -2821,7 +2958,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "626d6384-6815-49a0-b497-efe79509144d")
 		(property "Reference" "D211"
 			(at 48.26 95.25 90)
@@ -2841,7 +2978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 46.99 96.52 0)
 			(effects
 				(font
@@ -2952,83 +3089,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.75 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b04cb13-fe9e-45c9-8703-04c77ac4fa8e")
-		(property "Reference" "J201"
-			(at 29.21 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P1-Out"
-			(at 29.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 31.75 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98d767d5-e4e6-45c5-9a36-fc4db25d2196")
-		)
-		(pin "1"
-			(uuid "00939e23-5430-4ddc-999d-659315a07859")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
-					(reference "J201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 46.99 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "96b566b9-9c9d-4b01-a6ee-e7e8395dda96")
 		(property "Reference" "D205"
 			(at 48.26 57.15 90)
@@ -3048,7 +3115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 46.99 58.42 0)
 			(effects
 				(font
@@ -3108,7 +3175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "560u"
 			(at 73.66 46.99 0)
 			(effects
 				(font
@@ -3227,16 +3294,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.75 57.15 0)
-		(mirror y)
+		(at 31.75 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a0ee6e72-e3b2-45c8-8eff-f892ad979ec8")
-		(property "Reference" "J203"
-			(at 29.21 57.15 0)
+		(uuid "a21cb3d9-e802-4bbd-b32e-75f0d72dbf9c")
+		(property "Reference" "J201"
+			(at 29.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3311,7 @@
 			)
 		)
 		(property "Value" "P1-Out"
-			(at 29.21 59.69 0)
+			(at 29.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,8 +3319,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 31.75 57.15 0)
+		(property "Footprint" "mecatron-kicad-footprints:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 31.75 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 57.15 0)
+			(at 31.75 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3338,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 57.15 0)
+			(at 31.75 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,15 +3347,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e0b648e0-4e91-4daa-bbf5-be883ab000fd")
+			(uuid "c0faace1-6353-4c5c-a252-82e9a1cd15ee")
 		)
 		(pin "1"
-			(uuid "cd57a14e-6b7f-4d1d-b182-12fa0ea4fa4e")
+			(uuid "97fd90ce-4e44-4e4a-8532-21bca77a3d80")
 		)
 		(instances
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
-					(reference "J203")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3368,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a6f918b2-df08-4107-9737-03ab090c1cb2")
 		(property "Reference" "D201"
 			(at 48.26 31.75 90)
@@ -3322,7 +3388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 46.99 33.02 0)
 			(effects
 				(font
@@ -3365,146 +3431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.75 69.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7bb84f1-10eb-4dd2-88bb-f6153d662199")
-		(property "Reference" "J204"
-			(at 29.21 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P1-Out"
-			(at 29.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 31.75 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17be3eb5-c760-4b46-8c17-653b8e1242b3")
-		)
-		(pin "1"
-			(uuid "9d576f35-585e-48d0-b287-92af0619673b")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
-					(reference "J204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.75 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8a687f2-a6a2-4fc7-8c59-10e341950571")
-		(property "Reference" "J202"
-			(at 29.21 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P1-Out"
-			(at 29.21 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 31.75 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c233ec10-c95a-4d31-b23c-d112fcf09a7a")
-		)
-		(pin "1"
-			(uuid "9a57b3f4-2519-47d2-8ff1-e7071b8c0f98")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
-					(reference "J202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 71.12 96.52 0)
 		(unit 1)
@@ -3522,7 +3448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "560u"
 			(at 73.66 97.79 0)
 			(effects
 				(font
@@ -3580,7 +3506,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b57b3c00-9a5c-4db2-a377-de90069d2323")
 		(property "Reference" "D209"
 			(at 48.26 82.55 90)
@@ -3600,7 +3526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -3779,83 +3705,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 31.75 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0095105-a547-4a97-a470-e68698a82a22")
-		(property "Reference" "J205"
-			(at 29.21 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "P1-Out"
-			(at 29.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "efd6d7a8-85b2-401e-a8c9-e8a71cd81cfb")
-		)
-		(pin "1"
-			(uuid "804edc55-4f7b-43ce-9497-972d8c9d6f66")
-		)
-		(instances
-			(project "mecatron-power-distribution-unit"
-				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
-					(reference "J205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 58.42 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c2357194-0830-45ff-baee-19a89de72d1d")
 		(property "Reference" "D208"
 			(at 59.69 69.85 90)
@@ -3875,7 +3731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 58.42 71.12 0)
 			(effects
 				(font
@@ -3912,6 +3768,75 @@
 			(project "mecatron-power-distribution-unit"
 				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
 					(reference "D208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 31.75 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2affb9e-3d15-47d8-8c1d-79db00af7b58")
+		(property "Reference" "J203"
+			(at 29.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1-Out"
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mecatron-kicad-footprints:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "624b3052-0612-45d6-bf15-7da1c622c869")
+		)
+		(pin "1"
+			(uuid "b7a25147-f21f-4545-a1e2-87cb641e07a4")
+		)
+		(instances
+			(project "mecatron-power-distribution-unit"
+				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
+					(reference "J203")
 					(unit 1)
 				)
 			)
@@ -4001,7 +3926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "560u"
 			(at 73.66 85.09 0)
 			(effects
 				(font
@@ -4136,7 +4061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470u"
+		(property "Value" "560u"
 			(at 73.66 72.39 0)
 			(effects
 				(font
@@ -4194,7 +4119,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cff64ccb-bca6-464c-b30f-8b64198ec4b0")
 		(property "Reference" "D210"
 			(at 59.69 82.55 90)
@@ -4214,7 +4139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 58.42 83.82 0)
 			(effects
 				(font
@@ -4325,13 +4250,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 31.75 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de40c72b-29b2-4e96-956d-242d26697e94")
+		(property "Reference" "J205"
+			(at 29.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P1-Out"
+			(at 29.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mecatron-kicad-footprints:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d526359e-d365-4195-8efc-e879376f86a3")
+		)
+		(pin "1"
+			(uuid "37b801bf-490f-4b85-9485-3d14c42d877f")
+		)
+		(instances
+			(project "mecatron-power-distribution-unit"
+				(path "/9cb01b53-1db4-412b-a8cb-1fcd9badd497/fd7e521a-0d4f-4fe8-8113-db4af1b76da2"
+					(reference "J205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 58.42 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e737e917-352e-4cd0-aad5-1f4b1dd8919c")
 		(property "Reference" "D206"
 			(at 59.69 57.15 90)
@@ -4351,7 +4345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" ""
 			(at 58.42 58.42 0)
 			(effects
 				(font

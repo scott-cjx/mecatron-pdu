@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mecatron-kicad-rsc")(type "KiCad")(uri "${KIPRJMOD}/mecatron-kicad-rsc.kicad_sym")(options "")(descr ""))
+)
