@@ -441,15 +441,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "scottcjx-kicad-lib"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "scottcjx-kicad-lib"
     ]
   },
   "meta": {
-    "filename": "MecatronPDU-HV.kicad_pro",
+    "filename": "MecatronPDU-LV.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -545,35 +543,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -618,11 +592,11 @@
   },
   "sheets": [
     [
-      "6092e968-13f7-4852-b0bb-958081c611cc",
+      "0a0abfaf-af38-450e-bea8-b0be9bd61229",
       "Root"
     ],
     [
-      "cc54f1e2-614b-4c0e-bb47-b5b85b338d41",
+      "c752665c-4452-42f2-b19b-d35548017892",
       "Outputs"
     ]
   ],

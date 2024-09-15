@@ -1,0 +1,3747 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f4ac2f21-6034-44bc-8bbe-6970484200b1")
+	(paper "A5")
+	(title_block
+		(title "Power Distribution Unit HV")
+		(date "2024-09-06")
+		(rev "1")
+		(company "Scott CJX")
+		(comment 1 "for Mecatron")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 72.39 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01de7fca-488b-4495-b461-06b9edf65cd7")
+	)
+	(junction
+		(at 83.82 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09e61e19-9305-409c-885b-0a74c33cde97")
+	)
+	(junction
+		(at 38.1 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17d2ec2b-ab39-421d-858c-323fc7711207")
+	)
+	(junction
+		(at 83.82 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37d9b920-645e-48f5-ab95-69ea81241ef4")
+	)
+	(junction
+		(at 95.25 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4601cf34-00a0-479b-923c-dfa97bcedb26")
+	)
+	(junction
+		(at 106.68 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cc319d8-04f5-4c70-afdd-e350d85a8e25")
+	)
+	(junction
+		(at 106.68 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80d49b95-7591-4d84-be92-045ca02751ee")
+	)
+	(junction
+		(at 95.25 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e15ed98-2500-43c0-9bc1-6613d41a2c9d")
+	)
+	(junction
+		(at 60.96 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0f22662-3e2b-45fb-8c64-14a13ad33c83")
+	)
+	(junction
+		(at 49.53 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d73f91-af8c-46c5-8323-7f5bb7c61bfe")
+	)
+	(junction
+		(at 49.53 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f938f3-ba42-4f33-8188-6bba4281ef09")
+	)
+	(junction
+		(at 60.96 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe09bac-5dcf-4167-8f52-eefc85e63054")
+	)
+	(junction
+		(at 38.1 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfac0dcf-1512-4556-869f-402ee109e31f")
+	)
+	(junction
+		(at 26.67 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1fced59-3655-4e99-a9fd-c196bd8b6322")
+	)
+	(junction
+		(at 72.39 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa6e5533-077e-4a80-ab2b-a42eb0bfca24")
+	)
+	(junction
+		(at 26.67 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd73e4fe-18f6-4df0-8869-b11c8f14ca90")
+	)
+	(wire
+		(pts
+			(xy 44.45 82.55) (xy 43.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071e327a-535d-4aa1-a871-fa29af21cf9c")
+	)
+	(wire
+		(pts
+			(xy 43.18 64.77) (xy 44.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f57f1c-68ed-4583-85d5-f2a06b57e3ad")
+	)
+	(wire
+		(pts
+			(xy 49.53 33.02) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bda2e1c-aeb5-4cbe-b204-e1afbc854ca1")
+	)
+	(wire
+		(pts
+			(xy 43.18 85.09) (xy 44.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d49e41c-a3ba-4542-b631-93e7e11fdf48")
+	)
+	(wire
+		(pts
+			(xy 26.67 33.02) (xy 26.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12dfdb69-4590-4a4f-93f9-65d2621bce06")
+	)
+	(wire
+		(pts
+			(xy 43.18 54.61) (xy 44.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bfbf5f-0be8-455b-9d33-301107efa418")
+	)
+	(wire
+		(pts
+			(xy 106.68 33.02) (xy 95.25 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb00b08-54de-43dc-b5fc-cea5747bd2bb")
+	)
+	(wire
+		(pts
+			(xy 60.96 22.86) (xy 60.96 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0bd061-cb80-4e85-8810-b834a306a484")
+	)
+	(wire
+		(pts
+			(xy 26.67 22.86) (xy 26.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22913b09-977c-4cd8-9306-f3ba88225d8d")
+	)
+	(wire
+		(pts
+			(xy 72.39 22.86) (xy 72.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9a7ea9-5595-4935-86cc-e645b2a0fbb4")
+	)
+	(wire
+		(pts
+			(xy 43.18 69.85) (xy 44.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc93e27-9ba1-41df-8a77-2a3c16e07867")
+	)
+	(wire
+		(pts
+			(xy 83.82 22.86) (xy 72.39 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3395dd36-8465-443a-8651-2f9378d0e936")
+	)
+	(wire
+		(pts
+			(xy 60.96 33.02) (xy 49.53 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f2eb20-28a6-4ed4-8cb6-aef4cd6c787d")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 60.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398a402a-8009-41a7-80c6-9d2e10b1ee6e")
+	)
+	(wire
+		(pts
+			(xy 43.18 44.45) (xy 44.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7233aa-d78d-48e9-bd7d-7810ca02dc5e")
+	)
+	(wire
+		(pts
+			(xy 44.45 52.07) (xy 43.18 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415fe57e-ed9e-44d2-a5b7-33c473ae46ae")
+	)
+	(wire
+		(pts
+			(xy 118.11 33.02) (xy 118.11 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443a3baf-3242-48c8-9572-86c7f84e9bb9")
+	)
+	(wire
+		(pts
+			(xy 60.96 22.86) (xy 49.53 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a6f9b0-e8c0-4052-ad90-2757f8024b53")
+	)
+	(wire
+		(pts
+			(xy 43.18 80.01) (xy 44.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea4585e-2c58-4c51-bfe3-fed61b939551")
+	)
+	(wire
+		(pts
+			(xy 44.45 87.63) (xy 43.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8befae-0472-4143-9c1d-5671d8335c8e")
+	)
+	(wire
+		(pts
+			(xy 95.25 33.02) (xy 95.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bda44e3-4103-48c7-b5e9-abb4fb70d842")
+	)
+	(wire
+		(pts
+			(xy 72.39 22.86) (xy 60.96 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f9aeab-26f4-4fa9-ad64-1b3d5cb9cdc7")
+	)
+	(wire
+		(pts
+			(xy 44.45 62.23) (xy 43.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78088334-3885-4af8-b211-c899d5328c83")
+	)
+	(wire
+		(pts
+			(xy 43.18 49.53) (xy 44.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4fcf58-1392-4234-82fc-090e00718e87")
+	)
+	(wire
+		(pts
+			(xy 44.45 72.39) (xy 43.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819938ea-aa13-4004-a9a1-f4daf51ec1dc")
+	)
+	(wire
+		(pts
+			(xy 43.18 74.93) (xy 44.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83755269-d8ba-4f46-b043-25bc96fdc52e")
+	)
+	(wire
+		(pts
+			(xy 118.11 22.86) (xy 106.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889be946-d33b-4776-b25e-91f05e707078")
+	)
+	(wire
+		(pts
+			(xy 60.96 33.02) (xy 60.96 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f894959-6946-43fb-ab10-fa6f0c3ba3f6")
+	)
+	(wire
+		(pts
+			(xy 44.45 77.47) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977c347b-0edd-48e2-a59d-78bf159a795f")
+	)
+	(wire
+		(pts
+			(xy 26.67 21.59) (xy 26.67 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ae93df-b523-4bfc-81d3-3e6e714ff4f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 33.02) (xy 38.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1de1b7-ea0c-4963-a1f9-3da844970be5")
+	)
+	(wire
+		(pts
+			(xy 106.68 33.02) (xy 106.68 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5929fe-9776-4276-a3c3-f5786129bf7f")
+	)
+	(wire
+		(pts
+			(xy 44.45 46.99) (xy 43.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a092c861-10de-4773-a59d-815a439ae028")
+	)
+	(wire
+		(pts
+			(xy 38.1 22.86) (xy 26.67 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f1b6e0-872b-4fcc-a1c7-b15d7efe1fdf")
+	)
+	(wire
+		(pts
+			(xy 83.82 22.86) (xy 95.25 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97a1d03-6aae-4902-ad72-bc48a1fb45cc")
+	)
+	(wire
+		(pts
+			(xy 49.53 22.86) (xy 49.53 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe80c43-3c38-480a-9929-afa29a5b1edc")
+	)
+	(wire
+		(pts
+			(xy 38.1 22.86) (xy 38.1 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b8a145-94c5-4624-a8a2-930f78aa0d49")
+	)
+	(wire
+		(pts
+			(xy 44.45 67.31) (xy 43.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5a8644-0eef-4ffe-b19d-689a1300407b")
+	)
+	(wire
+		(pts
+			(xy 118.11 22.86) (xy 118.11 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00927e7-9491-49b7-a616-3d9591fdecfa")
+	)
+	(wire
+		(pts
+			(xy 43.18 59.69) (xy 44.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08af499-b975-498f-b356-1f87adaf80ea")
+	)
+	(wire
+		(pts
+			(xy 83.82 22.86) (xy 83.82 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ee9b32-e366-4fef-8842-af412402f8ee")
+	)
+	(wire
+		(pts
+			(xy 118.11 33.02) (xy 106.68 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d5578c-3546-4aae-8fc5-f9c2f772f19a")
+	)
+	(wire
+		(pts
+			(xy 106.68 22.86) (xy 106.68 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb665e1f-d617-4bb1-83d9-c5334aff1fb9")
+	)
+	(wire
+		(pts
+			(xy 26.67 33.02) (xy 26.67 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb78765d-af0e-4cb2-ace0-589de277174e")
+	)
+	(wire
+		(pts
+			(xy 95.25 22.86) (xy 95.25 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6b0ab1-34d5-4e86-8d8c-781fd6c09892")
+	)
+	(wire
+		(pts
+			(xy 38.1 33.02) (xy 26.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a9a25a-9e69-4f23-8878-a712f4e593b9")
+	)
+	(wire
+		(pts
+			(xy 83.82 33.02) (xy 95.25 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a52331-fdc6-4a15-b63b-ed22ebbf4f06")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 43.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19cf0c2-41b2-4959-857e-0136d64f9b15")
+	)
+	(wire
+		(pts
+			(xy 83.82 33.02) (xy 83.82 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b107d4-3aff-4bf4-9a9b-c31cedb6867c")
+	)
+	(wire
+		(pts
+			(xy 83.82 33.02) (xy 72.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed735ac1-51ec-4855-9f20-b92c664a71fa")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 72.39 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5ca711-1295-48e3-ab9c-b7519c8b40a6")
+	)
+	(wire
+		(pts
+			(xy 49.53 33.02) (xy 49.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe1429e-2591-4959-8baa-818d29fa173e")
+	)
+	(wire
+		(pts
+			(xy 49.53 22.86) (xy 38.1 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc54faba-f484-4008-91dd-791a26d35c56")
+	)
+	(wire
+		(pts
+			(xy 106.68 22.86) (xy 95.25 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed2b541-f38e-4d82-921e-6be172032924")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 83.82 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02950909-f3c2-48a5-8f7e-897f5763941e")
+		(property "Reference" "C206"
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 81.28 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 82.8548 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 83.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2865ffaa-8cc4-45ed-8c85-992fb7138184")
+		)
+		(pin "1"
+			(uuid "2a81237e-2d6f-4367-9338-ccb9c4edc91e")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "031227d2-ea65-44c5-8b32-a13dff0113bc")
+		(property "Reference" "J203"
+			(at 35.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9470e638-9961-49cb-99d6-ce147aa24bda")
+		)
+		(pin "1"
+			(uuid "5cc2516a-38c8-4cb0-8391-aef58e46c17a")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "040ad795-6d32-4e85-8bfb-c57c7f7105ac")
+		(property "Reference" "#PWR0202"
+			(at 26.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd8dc10b-b56f-4013-9bb4-0586dd387e92")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "058119b1-7864-4b29-b2e0-1122cd4688ba")
+		(property "Reference" "J204"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f5c3517-499d-4432-a1bc-2079a370cb96")
+		)
+		(pin "1"
+			(uuid "94a889e1-6559-480a-862b-8f25cf58fd81")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 72.39 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1703d285-37bd-487c-92ee-a36159fd241e")
+		(property "Reference" "C205"
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 71.4248 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7a3ae19-eb16-4608-9133-ab7862a81e47")
+		)
+		(pin "1"
+			(uuid "c1fc5398-6bf5-405f-b994-5d6bc3be23de")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d98f487-73ad-400c-97d3-1813391ca2a6")
+		(property "Reference" "#PWR0204"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "910e0b62-a9bf-4372-8563-70846434c1fb")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e5f3196-b164-49c9-9937-4884510fe849")
+		(property "Reference" "J205"
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9aedbe0b-6c37-461e-9338-f18160ae8c6c")
+		)
+		(pin "1"
+			(uuid "b2dd8762-a5b9-47fe-a45b-397ff54b73f6")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "403ba712-6a25-4912-8123-8c09f9266795")
+		(property "Reference" "J206"
+			(at 35.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42efede2-4634-444d-93ac-4adeb37bc33c")
+		)
+		(pin "1"
+			(uuid "dd105e75-118e-4220-a705-6d8415a63019")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "432ff0d3-f0d5-4a4e-bc2e-252574a2212a")
+		(property "Reference" "#PWR0211"
+			(at 40.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "299d32ae-3411-4a25-9a1d-cb60e9f45d68")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cfd4eb2-e2ae-40c8-aec7-3bf3793836a4")
+		(property "Reference" "#PWR0212"
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca5d30b1-5350-4cce-8fe1-092ef132d8c6")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 26.67 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50487731-54b0-49e9-ae0f-fdeb2f48efa4")
+		(property "Reference" "C201"
+			(at 24.13 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 24.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 25.7048 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 26.67 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bef57b5-59a5-43c6-867b-6236fca1051d")
+		)
+		(pin "1"
+			(uuid "41260c48-b1e5-4faa-b5ea-9de8437057c5")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50b6ba91-6484-46a7-8022-614876724358")
+		(property "Reference" "#PWR0220"
+			(at 50.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97707cbc-6aac-446c-96aa-d87c3dfe92e9")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53a40167-b0c1-4bda-b21d-b00352e465a8")
+		(property "Reference" "#PWR0208"
+			(at 50.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee6e41a4-e223-4297-b9c0-daa3804b35af")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fb1ea49-2c69-4f0c-b349-097cbfee4b8b")
+		(property "Reference" "J207"
+			(at 35.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ed8d664-7222-463c-afda-d624b3c98060")
+		)
+		(pin "1"
+			(uuid "88fb1d5b-b8bb-44f2-9742-38b12a1d5ed2")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6199cd46-49e4-4297-a953-fd415c099751")
+		(property "Reference" "#PWR0218"
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "988abace-e75e-41cd-b356-6c19d6800b7e")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61c661bd-2a9b-4388-88e6-0e424c3bc537")
+		(property "Reference" "J202"
+			(at 35.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c02eea0-0538-4e75-9022-a200f7f80c46")
+		)
+		(pin "1"
+			(uuid "025437ae-621c-43d9-8bbb-5ccbf8d94fd5")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 118.11 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c4b0bb9-b1d0-4f62-9b93-934fcc086ad3")
+		(property "Reference" "C209"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 115.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 117.1448 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 118.11 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "308692bf-84ab-436c-8d59-51b9e570aaf5")
+		)
+		(pin "1"
+			(uuid "1968b20b-dad2-4023-9259-8e453db8d604")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e488041-19b0-48e5-9a5d-434eb1368fa0")
+		(property "Reference" "#PWR0216"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3544e9ff-3ac1-4416-b330-5ac9ea1677d9")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aa110f5-b461-48f2-9289-304cb37915af")
+		(property "Reference" "J209"
+			(at 35.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35d146f0-46a6-4fd3-a494-75fd7090f7c2")
+		)
+		(pin "1"
+			(uuid "73775001-995c-4b5e-a482-9d64971ecf13")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 60.96 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87c97741-0217-402c-b7a6-2c525af0f466")
+		(property "Reference" "C204"
+			(at 58.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 58.42 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 59.9948 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 60.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09eaf42f-742a-4811-8748-d4662a80f0ea")
+		)
+		(pin "1"
+			(uuid "445eaed5-fbc0-4dec-9991-5b3cb802032d")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5f6e66f-be8b-44c9-a973-90225565f33b")
+		(property "Reference" "#PWR0203"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6d4ed98-2f8f-452a-b7b5-89534f7c36f0")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 26.67 21.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaff943d-7b1b-45b6-b8ff-65dd2f14e947")
+		(property "Reference" "#PWR0201"
+			(at 26.67 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 26.67 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 26.67 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b936e523-f4c5-4ce2-a32e-e60ef7b78f8d")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae301eaa-8c83-48eb-972f-9c1862cc54ef")
+		(property "Reference" "J208"
+			(at 35.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52c80fa8-2bf7-47f2-ab78-d1ed5eeee79b")
+		)
+		(pin "1"
+			(uuid "e310df4f-7769-4b05-9aea-f247f264f473")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b034d1c1-638f-4e4e-b353-f58789764626")
+		(property "Reference" "#PWR0209"
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a78e04-4b0f-4416-8cb2-5b6cb5d11ed4")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 38.1 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b50341a0-c441-4fee-8c17-c2ee83cc0b75")
+		(property "Reference" "J201"
+			(at 35.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Power Out"
+			(at 35.56 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2dd8e1b7-c8f1-4e1b-b5fb-7a41bdcbccc0")
+		)
+		(pin "1"
+			(uuid "4962d876-a330-41e6-bbfa-80535c8be4c3")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "J201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 49.53 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c30c0a2c-8a30-4845-9ae3-b31d19fe99d4")
+		(property "Reference" "C203"
+			(at 46.99 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 46.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 48.5648 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "830a2deb-9560-4181-9294-34e9b47ea284")
+		)
+		(pin "1"
+			(uuid "28c0138a-3670-4e43-a6c7-4d404e9e3e4e")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6d340b2-f451-4e45-96da-1e4373f6859a")
+		(property "Reference" "#PWR0207"
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61508f96-2943-4d61-bf36-70bbe5c22ee9")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8fadb97-a9a5-406d-b84e-c0b568beef2f")
+		(property "Reference" "#PWR0215"
+			(at 40.64 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3119712d-535e-48ab-addc-9ab2df47fc66")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 95.25 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9d34b5a-bf19-43db-b4ed-0d8a41d9e9dd")
+		(property "Reference" "C207"
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 94.2848 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 95.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c9f8c42-e01d-4296-a27c-4442030fed8e")
+		)
+		(pin "1"
+			(uuid "27dd4299-b6a6-455a-9a6d-27c81b73ce82")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf19246f-5f9a-4505-b6be-3ef6532ea239")
+		(property "Reference" "#PWR0219"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27167d96-2a88-4954-b332-63198f2bd7c1")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e142580f-fcd7-4f14-a071-aed3398a3d97")
+		(property "Reference" "#PWR0217"
+			(at 40.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c70d2cc3-d133-4688-9288-7e87621ffbd5")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e287d194-a245-4deb-a001-45115d0a7501")
+		(property "Reference" "#PWR0205"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a86c955-ff68-46d3-87d7-64a6f2bac044")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 38.1 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5732ac2-e50b-4806-8861-7f6e8e213ddf")
+		(property "Reference" "C202"
+			(at 35.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 35.56 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 37.1348 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 38.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f7b6709-fe83-4efd-9b06-ded7cef0e9a3")
+		)
+		(pin "1"
+			(uuid "16c6f826-f818-471c-85ec-df5bf47af422")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e74900c7-2048-4d7a-803b-fe214b8a99eb")
+		(property "Reference" "#PWR0206"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3fbf235-9d28-4651-87e6-3b9682768871")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 44.45 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecdbd931-e0bd-4f29-b80f-94364a769ef5")
+		(property "Reference" "#PWR0213"
+			(at 40.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCF"
+			(at 46.99 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 44.45 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "455773a6-6e16-4a95-ae1a-bcf994c30a88")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4cb31b5-162d-4899-bce8-865c2c94b18a")
+		(property "Reference" "#PWR0214"
+			(at 50.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed4b0cab-08ee-4ab5-b968-0e1988efd008")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 106.68 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8555717-3ea5-4aea-91d9-f6c5a57805d5")
+		(property "Reference" "C208"
+			(at 104.14 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560u"
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+			(at 105.7148 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 106.68 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c35470aa-2567-4621-93a5-8457eb5e33f7")
+		)
+		(pin "1"
+			(uuid "4a9d648b-53c6-4e3f-82a3-145197a28348")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "C208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdd5e10e-af28-4326-ad4e-1057cf3c351a")
+		(property "Reference" "#PWR0210"
+			(at 50.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75f43cb4-579d-4d93-ad06-8c19e529dd55")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc/cc54f1e2-614b-4c0e-bb47-b5b85b338d41"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
