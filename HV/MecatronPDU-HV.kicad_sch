@@ -860,6 +860,296 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -1511,6 +1801,12 @@
 		(uuid "5d901afa-39b0-42c1-939e-c057d4ff6c06")
 	)
 	(junction
+		(at 107.95 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "675ba113-5d92-4a3e-9c7c-977a05de528d")
+	)
+	(junction
 		(at 40.64 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1539,6 +1835,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd2ba0f2-d457-44e3-b2b4-74fa3f80cbb4")
+	)
+	(junction
+		(at 96.52 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c61016d5-9ea0-4b68-9f29-4a28650e72ac")
 	)
 	(junction
 		(at 80.01 55.88)
@@ -1690,6 +1992,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 50.8) (xy 107.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddc027b-7f6b-4ab8-9c8a-74f53ed43ee7")
+	)
+	(wire
+		(pts
+			(xy 119.38 69.85) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c586df-40ea-4690-945c-d360e68e0c3a")
+	)
+	(wire
+		(pts
 			(xy 34.29 86.36) (xy 34.29 85.09)
 		)
 		(stroke
@@ -1720,6 +2042,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 69.85) (xy 119.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453b9a40-a344-40f7-a26e-6813d1d86acf")
+	)
+	(wire
+		(pts
 			(xy 97.79 20.32) (xy 109.22 20.32)
 		)
 		(stroke
@@ -1740,6 +2072,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 50.8) (xy 96.52 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e908ab-12c1-4bb2-9a45-a107e307fa27")
+	)
+	(wire
+		(pts
+			(xy 96.52 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5518c062-1661-4a45-a1b2-03c56107843a")
+	)
+	(wire
+		(pts
 			(xy 78.74 66.04) (xy 77.47 66.04)
 		)
 		(stroke
@@ -1757,6 +2109,16 @@
 			(type default)
 		)
 		(uuid "5d661186-86a1-4ea9-9ce1-2fee0c0613e0")
+	)
+	(wire
+		(pts
+			(xy 96.52 69.85) (xy 96.52 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6358fc61-c9e7-403a-9c4b-ea9dac6cc39e")
 	)
 	(wire
 		(pts
@@ -1807,6 +2169,16 @@
 			(type default)
 		)
 		(uuid "704156ad-c467-4867-b70a-71c4b57042e9")
+	)
+	(wire
+		(pts
+			(xy 119.38 60.96) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c609e2-cc83-4791-bd7c-d5810202d744")
 	)
 	(wire
 		(pts
@@ -1870,6 +2242,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 50.8) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8696d300-07ae-4ffa-9eb0-14351789f48b")
+	)
+	(wire
+		(pts
 			(xy 109.22 29.21) (xy 109.22 30.48)
 		)
 		(stroke
@@ -1887,6 +2269,26 @@
 			(type default)
 		)
 		(uuid "8a00e370-cb1a-4653-a3c3-56c92ef3dbdb")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c575534-138e-45dc-90de-472d9b90f506")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 119.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95694931-79d2-458f-b9e4-c46e5198d069")
 	)
 	(wire
 		(pts
@@ -1917,6 +2319,16 @@
 			(type default)
 		)
 		(uuid "ae4e290a-5e38-4588-a401-731e18f88550")
+	)
+	(wire
+		(pts
+			(xy 96.52 60.96) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35ba9b3-b73c-496a-b21d-5a0e877675f9")
 	)
 	(wire
 		(pts
@@ -1980,6 +2392,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 69.85) (xy 96.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d159921a-2e09-4360-95b3-8e6225647eb4")
+	)
+	(wire
+		(pts
 			(xy 63.5 20.32) (xy 74.93 20.32)
 		)
 		(stroke
@@ -2007,6 +2429,16 @@
 			(type default)
 		)
 		(uuid "dc96f45f-d4e0-4602-ae09-1da7560fa4d5")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.85) (xy 107.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e687565b-3d4e-49fd-b8f1-0f2db577b0f8")
 	)
 	(wire
 		(pts
@@ -2068,6 +2500,28 @@
 			(justify left bottom)
 		)
 		(uuid "434bed54-0143-4e37-acaf-a6d81fc5e24c")
+	)
+	(label "relay_sig"
+		(at 58.42 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d795566-b6f9-43fb-bffb-0f7e28bf7c3c")
+	)
+	(label "relay_sig"
+		(at 128.27 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "989a9611-08c0-4bfa-8ac6-f44cf22abcc4")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -2164,7 +2618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 85.3948 29.21 0)
 			(effects
 				(font
@@ -2790,7 +3244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 108.2548 29.21 0)
 			(effects
 				(font
@@ -2833,6 +3287,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 119.38 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a19ca76-8944-4068-884d-329060a38203")
+		(property "Reference" "R103"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 117.602 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c1272a5-e66a-4f45-ac0a-2009e13cd1de")
+		)
+		(pin "1"
+			(uuid "ede7ad3d-cf40-499a-89c8-6503b8038ab4")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 97.79 25.4 0)
 		(mirror y)
@@ -2860,7 +3383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 96.8248 29.21 0)
 			(effects
 				(font
@@ -3183,6 +3706,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 107.95 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94ac2aff-b32c-4e37-b55e-b1d6bd57b1c2")
+		(property "Reference" "D103"
+			(at 111.76 56.1974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.76 58.7374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "645ddeed-28ba-4282-9b2d-8acc3eaff6a6")
+		)
+		(pin "2"
+			(uuid "54ac7429-8bdd-4c85-9c0f-6b4a183cd692")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 40.64 22.86 0)
 		(mirror x)
@@ -3210,7 +3803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
 			(at 40.64 22.86 0)
 			(effects
 				(font
@@ -3280,7 +3873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 73.9648 29.21 0)
 			(effects
 				(font
@@ -3388,6 +3981,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 107.95 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3edbb27-882a-4937-8f17-a3d24e2f6722")
+		(property "Reference" "#PWR0114"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{Comp}"
+			(at 107.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73aab317-5b8a-4eb6-942c-606408761230")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b433030b-e645-47e4-8bca-f1ffa59cd4e5")
+		(property "Reference" "R102"
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 106.172 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c47f782f-39bd-430b-80ec-4119699af290")
+		)
+		(pin "1"
+			(uuid "ce915959-6ffe-466a-b864-e91bf3cb1ab3")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 57.15 0)
 		(mirror y)
@@ -3456,6 +4183,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 119.38 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c92653c1-6997-45d4-9ec3-6bb6f86bd6b5")
+		(property "Reference" "D104"
+			(at 123.19 56.1974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 123.19 58.7374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7cd66e2-081f-4640-a4c7-c1b39a1d8a44")
+		)
+		(pin "2"
+			(uuid "57945017-3ee3-4f06-bf54-acc8be03a6e1")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 46.99 82.55 0)
 		(unit 1)
@@ -3517,6 +4314,145 @@
 			(project "MecatronPDU-HV"
 				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
 					(reference "H103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbaedab0-60e4-4158-a83f-de6b142653ea")
+		(property "Reference" "R101"
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 94.742 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98b1c93a-13b3-44bc-862c-e4eb66ed27ac")
+		)
+		(pin "1"
+			(uuid "343f0171-e686-4fe3-a3f8-27dee622d0e8")
+		)
+		(instances
+			(project ""
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 96.52 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfcfe2ca-b436-4704-9076-8e85ecd6d9fd")
+		(property "Reference" "D102"
+			(at 100.33 56.1974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.33 58.7374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f81616fd-346b-4d72-abe6-6a416168cc85")
+		)
+		(pin "2"
+			(uuid "ead2e3e9-b529-4ec7-bf8d-f48828130f2d")
+		)
+		(instances
+			(project ""
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -3659,6 +4595,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 96.52 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e19ecbd5-fb03-473a-9226-f2506a325e5d")
+		(property "Reference" "#PWR0113"
+			(at 96.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "689c11b8-cf84-4a4f-bca8-556a2a782fc7")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 63.5 25.4 0)
 		(mirror y)
@@ -3686,7 +4687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 62.5348 29.21 0)
 			(effects
 				(font
@@ -3797,6 +4798,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 96.52 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f138fc04-dd43-4200-a5d0-412b1a4ddbb1")
+		(property "Reference" "#PWR0112"
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bbad5f4-4601-4643-8496-c2a7ebce1604")
+		)
+		(instances
+			(project "MecatronPDU-HV"
+				(path "/6092e968-13f7-4852-b0bb-958081c611cc"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:Relay_SPST-NO")
 		(at 69.85 60.96 90)
 		(mirror x)
@@ -3872,7 +4941,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 49.53)
+		(at 147.32 20.32)
 		(size 24.13 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -3884,7 +4953,7 @@
 		)
 		(uuid "cc54f1e2-614b-4c0e-bb47-b5b85b338d41")
 		(property "Sheetname" "Outputs"
-			(at 109.22 48.8184 0)
+			(at 147.32 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +4962,7 @@
 			)
 		)
 		(property "Sheetfile" "Outputs.kicad_sch"
-			(at 109.22 67.8946 0)
+			(at 147.32 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

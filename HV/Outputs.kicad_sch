@@ -1190,7 +1190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 82.8548 31.75 0)
 			(effects
 				(font
@@ -1466,7 +1466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 71.4248 31.75 0)
 			(effects
 				(font
@@ -1874,7 +1874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 25.7048 31.75 0)
 			(effects
 				(font
@@ -2283,7 +2283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 117.1448 31.75 0)
 			(effects
 				(font
@@ -2489,7 +2489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 59.9948 31.75 0)
 			(effects
 				(font
@@ -2895,7 +2895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 48.5648 31.75 0)
 			(effects
 				(font
@@ -3097,7 +3097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 94.2848 31.75 0)
 			(effects
 				(font
@@ -3365,7 +3365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 37.1348 31.75 0)
 			(effects
 				(font
@@ -3635,7 +3635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "scottcjx-kicad-lib:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 105.7148 31.75 0)
 			(effects
 				(font
